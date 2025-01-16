@@ -33,19 +33,19 @@ public class binary_search {
   }
 
   private static int binary(int[] arr, int first, int last, int key) {
-      while (first < last) {
-        int mid = first + (last - first)/2;
-        int guess = arr[mid];
+    while (first < last) {
+      int mid = first + (last - first)/2;
+      int guess = arr[mid];
 
-        if (guess == key) {
-          return guess;
-        } else if (guess < key) {
-          first = mid + 1;
-        } else {
-          last = mid;
-        }
+      if (guess == key) {
+        return guess;
+      } else if (guess < key) {
+        first = mid + 1;
+      } else {
+        last = mid;
       }
+    }
 
-      return -1;
+    return -1;
   }
 }
