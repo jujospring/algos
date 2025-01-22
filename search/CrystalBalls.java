@@ -1,4 +1,4 @@
-public class crystal_balls {
+public class CrystalBalls {
   public static void main(String[] args) {
 
     boolean[] breaks = new boolean[10];  //array of 10, false by default

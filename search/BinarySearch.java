@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class binary_search {
+public class BinarySearch {
   public static void main(String[] args) {
     int n;
     int key;
